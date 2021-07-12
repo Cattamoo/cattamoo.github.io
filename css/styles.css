@@ -36,9 +36,9 @@ body {
 }
 
 .categories {
-  margin: 0;
+  display: flex;
+  margin-bottom: 25px;
   padding: 0;
-  color: darkslategrey;
 }
 
 .category {
