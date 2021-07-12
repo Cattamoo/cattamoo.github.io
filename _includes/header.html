@@ -4,9 +4,11 @@
             <p class="title is-1">
                 {{ site.title }}
             </p>
+            {% if site.subtitle %}
             <p class="subtitle is-5">
-                {{ site.data.header.message }}
+                {{ site.subtitle }}
             </p>
+            {% endif %}
         </div>
     </div>
     {% include categories.html %}

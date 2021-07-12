@@ -1,13 +1,17 @@
 # Site settings
-name: Cattamoo
-email: ouob77@kakao.com
-url: https://cattamoo.github.io/
-description: "A blog and a portfolio"
-author: "author"
 title: "CattamooFolio"
+subtitle: "ψ(｀∇´)ψ"
+url: https://cattamoo.github.io/
+description: > # A blog and a portfolio
+author: "author"
 permalink: /:categories/:year/:title
 baseurl: /
 favicon: /img/favicon.ico
+
+# User information
+name: Cattamoo
+email: ouob77@kakao.com
+profile_img: /img/profile.png
 
 # social
 github:
