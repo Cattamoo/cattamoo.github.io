@@ -1,8 +1,5 @@
 
 {% include categories.html %}
-<p class="title is-1">
-  {{ page.type }}
-</p>
 {% for post in site.posts %}
 {% if post.categories[0] == page.type %}
 <div class="box">
