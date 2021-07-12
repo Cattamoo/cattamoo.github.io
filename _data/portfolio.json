@@ -1,12 +1,28 @@
 {
     "items": [{
-        "name": "Project One",
+        "name": "버스타요",
+        "link": "https://github.com/yjovoS2/Bustayo",
+        "image": "http://via.placeholder.com/480x320",
+        "date_added": "2020-03-18",
+        "description": "실시간 버스 정보 앱",
+        "technologies": [
+            "Java",
+            "Android",
+            "Postgres",
+            "JavaScript",
+            "Node.js"
+        ]},{
+        "name": "test",
         "link": "",
         "image": "http://via.placeholder.com/480x320",
-        "date_added": "2017-06-09",
-        "description": "This is a description<br><small><em>attribute - attribute link</em></small>",
+        "date_added": "2020-06-09",
+        "description": "testtt",
         "technologies": [
-            "Java", "Spring Framework", "Postgres", "JavaScript", "AngularJS"
+            "Java",
+            "Android",
+            "Postgres",
+            "JavaScript",
+            "Node.js"
         ]
     }]
 }
