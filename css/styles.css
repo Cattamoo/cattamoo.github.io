@@ -35,6 +35,10 @@ body {
   color: white;
 }
 
+.category {
+  color: #FF8C69;
+}
+
 .nav_list {
   margin: auto;
   padding: 0;
