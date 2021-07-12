@@ -3,8 +3,11 @@ layout: page
 type: test2
 ---
 
+<p class="title is-1">
+    {{ page.type }}
+</p>
 {% for post in site.posts %}
-{% if post.categories %}
+{% if post.categories[0] == page.type %}
 <div class="box">
     <article class="media">
         <div class="media-content">
