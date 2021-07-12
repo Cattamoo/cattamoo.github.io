@@ -3,7 +3,7 @@
   {% for category in site.categories %}
   {% capture cat_name %}{{ category | first }}{% endcapture %}
   <li class="nav_item">
-    <a href="{{ site.baseurl }}/categories/{{ cat_name }}" id="aa">{{ cat_name }}
+    <a href="{{ site.baseurl }}/{{ cat_name }}">{{ cat_name }}
       ({{ category | last | size }})</a>
   </li>
   {% endfor %}
