@@ -1,0 +1,16 @@
+# Site settings
+name: Cattamoo
+email: ouob77@kakao.com
+url: https://cattamoo.github.io/
+description: "A blog and a portfolio"
+author: "author"
+title: "BlogFolio"
+permalink: pretty
+baseurl: /
+
+# social
+github:
+  username: Cattamoo
+
+instagram:
+  username: yjovos2
