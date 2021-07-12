@@ -7,6 +7,7 @@ author: "author"
 title: "CattamooFolio"
 permalink: /:categories/:year/:title
 baseurl: /
+favicon: /img/favicon.ico
 
 # social
 github:

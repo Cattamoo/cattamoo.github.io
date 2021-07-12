@@ -11,18 +11,6 @@
             "Postgres",
             "JavaScript",
             "Node.js"
-        ]},{
-        "name": "test",
-        "link": "",
-        "image": "http://via.placeholder.com/480x320",
-        "date_added": "2020-06-09",
-        "description": "testtt",
-        "technologies": [
-            "Java",
-            "Android",
-            "Postgres",
-            "JavaScript",
-            "Node.js"
-        ]
-    }]
+        ]}
+    ]
 }
