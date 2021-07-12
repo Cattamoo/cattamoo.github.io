@@ -1,7 +1,7 @@
 
-{% if post.categories[0] == page.type %}
-
+{% if page.type %}
 {% for post in site.posts %}
+{% if post.categories[0] == page.type %}
 <div class="box">
   <article class="media">
     <div class="media-content">
@@ -14,6 +14,7 @@
     </div>
   </article>
 </div>
+{% endif %}
 {% endfor %}
 
 {% else %}
@@ -33,5 +34,4 @@
   </article>
 </div>
 {% endfor %}
-
 {% endif %}
