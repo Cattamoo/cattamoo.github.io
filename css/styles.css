@@ -31,8 +31,8 @@ body {
 }
 
 .hero.is-primary {
-  background-color: #FF8C69;
-  color: white;
+  background-color: #FFDD55;
+  color: #555555;
 }
 
 .categories {
@@ -42,7 +42,7 @@ body {
 }
 
 .category {
-  color: #FF8C69;
+  color: #FFDD55;
 }
 
 .nav_list {
