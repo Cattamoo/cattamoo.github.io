@@ -5,5 +5,5 @@
         "화이팅!!",
         "<a target='_blank' href='https://github.com/{{ site.github.username }}'>github 바로가기</a>"
     ],
-    "highlights": ["Cattamoo"]
+    "highlights": ["{{ site.name }}"]
 }
