@@ -36,13 +36,12 @@ body {
 }
 
 .nav_list {
-  margin: 0;
+  margin: auto;
   padding: 0;
   list-style: none;
 }
 
 .nav_item {
   display: inline-block;
-  *display: inline;
   zoom: 1;
 }
