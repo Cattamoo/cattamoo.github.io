@@ -1,7 +1,8 @@
 
-<div >
-  {% include header.html %}
+<div class="categories">
+  {% include categories.html %}
 </div>
+
 {% for post in site.posts %}
 {% if post.categories[0] == page.type %}
 <div class="box">

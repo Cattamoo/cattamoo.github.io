@@ -35,6 +35,12 @@ body {
   color: white;
 }
 
+.categories {
+  margin: 0;
+  padding: 0;
+  color: darkslategrey;
+}
+
 .category {
   color: #FF8C69;
 }
