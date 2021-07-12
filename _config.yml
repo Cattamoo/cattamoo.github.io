@@ -1,5 +1,5 @@
 # Site settings
-title: "CattamooFolio"
+title: "Cattamoo Blog"
 subtitle: "ψ(｀∇´)ψ"
 url: https://cattamoo.github.io/
 description: > # A blog and a portfolio
@@ -19,3 +19,14 @@ github:
 
 instagram:
   username: yjovos2
+
+# Puglins
+mathjax: true # whether support mathjax
+google_analytics_token:  # leave blank if you don't want google analytics
+disqus_short_name: 'cattamoo-blog' # leave blank if you don't want disqus
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-gist
