@@ -34,3 +34,15 @@ body {
   background-color: #FF8C69;
   color: white;
 }
+
+.nav_list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav_item {
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+}
