@@ -4,13 +4,10 @@ email: ouob77@kakao.com
 url: https://cattamoo.github.io/
 description: "A blog and a portfolio"
 author: "author"
-title: "BlogFolio"
-permalink: pretty
+title: "CattamooFolio"
+permalink: /:categories/:year/:title
 baseurl: /
 
 # social
 github:
   username: Cattamoo
-
-instagram:
-  username: yjovos2
