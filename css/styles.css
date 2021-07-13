@@ -25,11 +25,12 @@ a:hover {
 .ct_heading {
   background: #FF9955;
 }
-.heading {
+
+.ct_heading .heading {
   padding: 30px;
 }
 
-.heading .title {
+.ct_heading .heading .title {
   color: #FFFFFF;
 }
 
