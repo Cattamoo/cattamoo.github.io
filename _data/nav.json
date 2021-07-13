@@ -1,11 +1,8 @@
 {
-    "items": [{
-            "name": "Portfolio",
-            "link": "/portfolio/"
-        },
-        {
-            "name": "About",
-            "link": "/about/"
-        }
+    "items": [
+      {
+          "name": "About",
+          "link": "/about/"
+      }
     ]
 }
