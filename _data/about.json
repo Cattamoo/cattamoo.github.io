@@ -1,8 +1,6 @@
 {
     "paragraphs": [
-        "Cattamoo를 소개합니다!",
-        "저는 완벽하진 않지만 열심히 개발을 공부하고있는 취업준비생입니다.",
-        "화이팅!!",
+        "안녕하세요!! 초급개발자 Cattamoo입니다!!",
         "<a target='_blank' href='https://github.com/{{ site.github.username }}'>github 바로가기</a>"
     ],
     "highlights": ["{{ site.name }}"]

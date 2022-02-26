@@ -1,16 +1,18 @@
 {
-    "items": [{
-        "name": "버스타요",
-        "link": "https://github.com/yjovoS2/Bustayo",
-        "image": "http://via.placeholder.com/480x320",
-        "date_added": "2020-03-18",
-        "description": "실시간 버스 정보 앱",
-        "technologies": [
-            "Java",
-            "Android",
-            "Postgres",
-            "JavaScript",
-            "Node.js"
-        ]}
+    "items": [
+        {
+            "name": "버스타요",
+            "link": "https://github.com/yjovoS2/Bustayo",
+            "image": "http://via.placeholder.com/480x320",
+            "date_added": "2020-03-18",
+            "description": "실시간 버스 정보 앱",
+            "technologies": [
+                "Java",
+                "Android",
+                "Postgres",
+                "JavaScript",
+                "Node.js"
+            ]
+        }
     ]
 }
