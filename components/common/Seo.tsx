@@ -6,9 +6,14 @@ type Props = {
 }
 
 export default function Seo({ title }: Props) {
+	const meta = {
+		...metadata
+	}
 	return (
 		<Head>
-			<title>{ `${metadata.title} - ${title}` }</title>
+			<title>{ `${meta.title} - ${title}` }</title>
+			<meta content={meta.description} name="description" />
+			<meta content={meta.author} property="og:site_name" />
 		</Head>
 	);
 }
