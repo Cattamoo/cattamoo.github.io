@@ -11,7 +11,7 @@ export default function About() {
 		;
 	}, []);
 	return (
-		<PageLayout>
+		<PageLayout title="About">
 			<Markdown text={about} />
 		</PageLayout>
 	);
