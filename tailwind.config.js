@@ -1,20 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    './pages/**/*.{js,ts,jsx,tsx}',
-    './components/**/*.{js,ts,jsx,tsx}'
-  ],
+  content: ["./src/**/*.{ts,tsx}"],
   theme: {
-    extend: {
-      colors: {
-        brand: '#eae7dc'
-      },
-      fontFamily: {
-        gwdu: ['Gowun Dodum', 'sans-serif']
-      }
-    },
+    extend: {},
   },
-  plugins: [
-    require('@tailwindcss/typography')
-  ],
+  plugins: [],
 }
