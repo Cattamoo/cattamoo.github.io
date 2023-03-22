@@ -4,7 +4,7 @@ import SubTitle from "./commons/SubTitle";
 
 export default function CoverLetter() {
 	return (
-		<div className="flex flex-col gap-10 py-10 px-2 bg-white">
+		<div className="flex flex-col gap-10 py-10 px-2">
 			<Title className="text-center text-black">자기소개</Title>
 			<div>
 				<SubTitle className="text-black">제목</SubTitle>
