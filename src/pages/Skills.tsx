@@ -11,15 +11,16 @@ type SkillItem = {
 
 const skills: { [key: string]: SkillItem[] } = {
 	'Front-end': [
-		{ name: 'HTML', level: 4, },
-		{ name: 'CSS', level: 5, },
-		{ name: 'Javascript', level: 5, },
-		{ name: 'React', level: 5, },
+		{ name: 'HTML', level: 3, },
+		{ name: 'CSS', level: 3, },
+		{ name: 'Javascript', level: 3, },
+		{ name: 'React', level: 3, },
 		{ name: 'Typescript', level: 2, },
 		{ name: 'TailwindCSS', level: 3, },
-		{ name: 'PostCSS', level: 3, },
 	],
 	'Back-end': [
+		{ name: 'Oracle', level: 3 },
+		{ name: 'Postgresql', level: 3 },
 		{ name: 'Node.js', level: 2, },
 		{ name: 'GraphQL', level: 1, },
 	],
@@ -36,12 +37,12 @@ export default function Skills() {
 				{
 					Object.keys(skills).map((name: string) => {
 						return (
-							<section className="flex flex-col">
+							<section key={name} className="flex flex-col">
 								<SubTitle className="bg-orange-50 p-2 text-black">{name}</SubTitle>
 								<ul className="ml-2">
 								{
 									skills[name].map(skill => (
-										<li className="grid grid-cols-[100px_5.5rem] items-center text-sm">
+										<li key={skill.name} className="grid grid-cols-[100px_5.5rem] items-center text-sm">
 											{skill.name}
 											<Level level={skill.level} />
 										</li>
