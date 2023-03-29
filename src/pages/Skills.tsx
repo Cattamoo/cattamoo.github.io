@@ -15,8 +15,8 @@ import {
 
 const skills: { [key: string]: SkillType[] } = {
 	'Front-end': [
-		{ Icon: SiHtml5, name: 'HTML', level: 30, color: '#ec6231' },
-		{ Icon: SiCss3, name: 'CSS', level: 35, color: '#264de4' },
+		{ Icon: SiHtml5, name: 'HTML', level: 63, color: '#ec6231' },
+		{ Icon: SiCss3, name: 'CSS', level: 57.2, color: '#264de4' },
 		{ Icon: SiJavascript, name: 'Javascript', level: 73, color: '#f0db4f' },
 		{ Icon: SiReact, name: 'React', level: 53, color: '#61dbfb' },
 		{ Icon: SiTypescript, name: 'Typescript', level: 32, color: '#007acc' },
