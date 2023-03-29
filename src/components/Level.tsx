@@ -2,17 +2,15 @@ import React from 'react';
 
 type Props = {
 	level: number;
+	color: string;
 }
 
-export default function Level({ level }: Props) {
+export default function Level({ level, color }: Props) {
 	return (
-		<div className="flex items-center gap-0.5">
-			{
-				Array.from({length: level}).map((_, idx) => <div key={`lv_${idx}`} className="w-4 h-4 bg-orange-100" />)
-			}
-			{
-				Array.from({length: 5 - level}).map((_, idx) => <div key={`lv_o_${idx}`} className="w-4 h-4 bg-zinc-50" />)
-			}
+		<div className="flex items-center w-full">
+			<div className="overflow-hidden w-full h-2 bg-zinc-50">
+				<div className="h-full" style={{ backgroundColor: color, width: `${level}%` }} />
+			</div>
 		</div>
 	);
 }
