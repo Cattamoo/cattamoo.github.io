@@ -29,6 +29,13 @@ const projects: ProjectType[] = [
 		tags: ['JQuery'],
 		content: 'Momentum 클론코딩(개인 대시보드 웹어플리케이션)입니다.',
 		link: { github: 'https://github.com/j-dea/like.momentum', page: 'https://j-dea.github.io/like.momentum' }
+	},
+	{
+		title: 'YouTube',
+		img: 'https://user-images.githubusercontent.com/87294942/230587851-f0c574aa-16e9-400a-baa0-de7fcc030095.png',
+		tags: ['React', 'TailwindCSS'],
+		content: 'YouTube 클론코딩입니다.',
+		link: { github: 'https://github.com/Cattamoo/youtube', page: 'https://youtube-cattamoo.vercel.app/' }
 	}
 ]
 
