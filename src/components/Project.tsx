@@ -15,13 +15,17 @@ export default function Project({ img = '', title, date, content = '', tags = []
 	return (
 		<li className="min-h-full bg-amber-50 p-4 shadow-lg flex flex-col items-center gap-1">
 			<img className="w-full aspect-square object-left object-cover rounded-lg" src={img} alt={`${title}`} />
-			<p className="self-end text-xs font-semibold flex gap-0.5 items-center py-0.5 px-1 mt-2 text-zinc-600 bg-amber-200 rounded">
-				<span>{date.start}</span>~{date.end && <span>{date.end}</span>}
-			</p>
-			<h2 className="flex items-center gap-2 text-lg font-bold text-black">
+			<div className="w-full flex justify-between items-center">
+				<div className="flex gap-0.5 items-center py-0.5 px-1 text-xs font-semibold text-zinc-600 bg-amber-200 rounded-lg">
+					<span>{date.start}</span>~{date.end && <span>{date.end}</span>}
+				</div>
+				<div className="flex gap-1 items-center text-lg">
+					{ link?.github && <a rel="noreferrer" className="text-black/50 hover:text-black/75" href={link.github} target="_blank"><FaGithub/></a> }
+					{ link?.page && <a rel="noreferrer" className="text-black/50 hover:text-black/75" href={link.page} target="_blank"><MdOutlineOpenInNew/></a> }
+				</div>
+			</div>
+			<h2 className="text-lg font-bold text-black">
 				{ title }
-				{ link?.github && <a rel="noreferrer" className="text-black/50 hover:text-black/75" href={link.github} target="_blank"><FaGithub/></a> }
-				{ link?.page && <a rel="noreferrer" className="text-black/50 hover:text-black/75" href={link.page} target="_blank"><MdOutlineOpenInNew/></a> }
 			</h2>
 			<ul className="flex gap-1.5 text-sm">
 				{
