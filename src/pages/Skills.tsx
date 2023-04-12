@@ -5,7 +5,7 @@ import Skill, {SkillType} from "../components/Skill";
 import {
 	SiCss3, SiGit, SiGraphql,
 	SiHtml5,
-	SiJavascript, SiNodedotjs,
+	SiJavascript, SiNextdotjs, SiNodedotjs,
 	SiOracle,
 	SiPostgresql,
 	SiReact,
@@ -18,8 +18,9 @@ const skills: { [key: string]: SkillType[] } = {
 		{ Icon: SiHtml5, name: 'HTML', level: 63, color: '#ec6231' },
 		{ Icon: SiCss3, name: 'CSS', level: 57.2, color: '#264de4' },
 		{ Icon: SiJavascript, name: 'Javascript', level: 73, color: '#f0db4f' },
-		{ Icon: SiReact, name: 'React', level: 53, color: '#61dbfb' },
 		{ Icon: SiTypescript, name: 'Typescript', level: 32, color: '#007acc' },
+		{ Icon: SiReact, name: 'React', level: 53, color: '#61dbfb' },
+		{ Icon: SiNextdotjs, name: 'Next.js', level: 22, color: '#000000' },
 		{ Icon: SiTailwindcss, name: 'TailwindCSS', level: 53, color: '#38bdf8' },
 	],
 	'Back-end': [
