@@ -9,7 +9,7 @@ export default function ContactMe() {
 			<Title className="text-black">ContactMe</Title>
 			<div className="grid grid-cols-[auto_1fr] items-center gap-x-2 gap-y-1 mt-5">
 				<MdMail className="text-lg" /> 	<p>ouob77@kakao.com</p>
-				<BsGithub className="text-lg" /> <p>https://github.com/cattamoo</p>
+				<BsGithub className="text-lg" /> <a rel="noreferrer" target="_blank" href="https://github.com/cattamoo">https://github.com/cattamoo</a>
 			</div>
 		</PageLayout>
 	);
