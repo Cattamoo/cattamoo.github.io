@@ -14,7 +14,7 @@ const projects: ProjectType[] = [
 		date: { start: '2022-11', end: '2023-04'},
 		img: 'https://user-images.githubusercontent.com/87294942/230587851-f0c574aa-16e9-400a-baa0-de7fcc030095.png',
 		tags: ['React', 'TailwindCSS'],
-		content: 'YouTube API를 사용한 YouTube 클론코딩입니다.',
+		content: 'YouTube API를 사용한 YouTube 클론코딩 프로젝트입니다.',
 		link: { github: 'https://github.com/Cattamoo/youtube', page: 'https://youtube-cattamoo.vercel.app/', gist: 'https://gist.github.com/Cattamoo/80e8d1b595beac5648ecc58a54babc47' }
 	},
 	{
