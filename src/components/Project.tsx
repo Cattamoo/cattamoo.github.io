@@ -1,6 +1,6 @@
 import React from 'react';
 import {FaGithub} from "react-icons/fa";
-import {MdOutlineOpenInNew} from "react-icons/md";
+import {MdCode, MdOutlineOpenInNew} from "react-icons/md";
 import {RiCalendarTodoFill} from "react-icons/ri";
 
 export type ProjectType = {
@@ -9,7 +9,7 @@ export type ProjectType = {
 	date: { start: string; end?: string; };
 	content?: string;
 	tags?: string[];
-	link?: { github?: string, page?: string };
+	link?: { github?: string, page?: string, gist?: string };
 }
 
 export default function Project({ img = '', title, date, content = '', tags = [], link = {} }: ProjectType) {
@@ -24,6 +24,7 @@ export default function Project({ img = '', title, date, content = '', tags = []
 					{ title }
 				</h2>
 				<div className="absolute top-1/2 right-0 -translate-y-2/4 flex gap-1 items-center text-lg">
+					{ link?.gist && <a rel="noreferrer" className="text-black/50 hover:text-black/75" href={link.gist} target="_blank"><MdCode/></a> }
 					{ link?.github && <a rel="noreferrer" className="text-black/50 hover:text-black/75" href={link.github} target="_blank"><FaGithub/></a> }
 					{ link?.page && <a rel="noreferrer" className="text-black/50 hover:text-black/75" href={link.page} target="_blank"><MdOutlineOpenInNew/></a> }
 				</div>

@@ -15,7 +15,7 @@ const projects: ProjectType[] = [
 		img: 'https://user-images.githubusercontent.com/87294942/230587851-f0c574aa-16e9-400a-baa0-de7fcc030095.png',
 		tags: ['React', 'TailwindCSS'],
 		content: 'YouTube API를 사용한 YouTube 클론코딩입니다.',
-		link: { github: 'https://github.com/Cattamoo/youtube', page: 'https://youtube-cattamoo.vercel.app/' }
+		link: { github: 'https://github.com/Cattamoo/youtube', page: 'https://youtube-cattamoo.vercel.app/', gist: 'https://gist.github.com/Cattamoo/80e8d1b595beac5648ecc58a54babc47' }
 	},
 	{
 		title: 'Colorful Log Maker',
@@ -23,7 +23,7 @@ const projects: ProjectType[] = [
 		img: 'https://user-images.githubusercontent.com/87294942/226336432-bcbb4c36-15f5-4001-a8ab-759b625380fa.png',
 		tags: ['React', 'TailwindCSS', 'Typescript'],
 		content: 'console.log 를 커스터마이징할 수 있는 웹어플리케이션입니다.',
-		link: { github: 'https://github.com/Cattamoo/colorful-log-maker', page: 'https://cattamoo.github.io/colorful-log-maker' }
+		link: { github: 'https://github.com/Cattamoo/colorful-log-maker', page: 'https://cattamoo.github.io/colorful-log-maker', gist: 'https://gist.github.com/Cattamoo/dc60bc06d190359a8158b304869bc35b' }
 	},
 	{
 		title: 'Markdown Editor',
@@ -39,7 +39,7 @@ const projects: ProjectType[] = [
 		img: 'https://user-images.githubusercontent.com/87294942/226338171-3ee6ef0c-0d00-4a34-aa81-804e04b0d4bf.png',
 		tags: ['JQuery'],
 		content: 'Momentum 클론코딩(개인 대시보드 웹어플리케이션)입니다.',
-		link: { github: 'https://github.com/j-dea/like.momentum', page: 'https://j-dea.github.io/like.momentum' }
+		link: { github: 'https://github.com/j-dea/like.momentum', page: 'https://j-dea.github.io/like.momentum', gist: 'https://gist.github.com/Cattamoo/60d2e48cbd4ad1ce9c7938e54cea2ab0' }
 	},
 ]
 
