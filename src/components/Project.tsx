@@ -18,7 +18,7 @@ export default function Project({ img = '', title, date, content = '', tags = []
 			<div className="absolute -left-3 top-3 text-sm flex gap-0.5 items-center py-2 px-6 font-semibold text-zinc-600/75 bg-amber-200 shadow">
 				<RiCalendarTodoFill className="mr-2 text-amber-600" /><span>{date.start}</span>~{date.end && <span>{date.end}</span>}
 			</div>
-			<img className="w-full aspect-square object-left object-cover rounded-lg" src={img} alt={`${title}`} />
+			<img className="w-full aspect-square object-center object-cover rounded-lg" src={img} alt={`${title}`} />
 			<div className="w-full relative">
 				<h2 className="text-center text-lg font-bold text-black">
 					{ title }

@@ -10,6 +10,30 @@ import "swiper/css/effect-cards";
 
 const projects: ProjectType[] = [
 	{
+		title: 'ANYTHING',
+		date: { start: '2023-05-24', end: '2023-05-26'},
+		img: 'https://github.com/Cattamoo/anything/assets/87294942/01b417fd-5271-4c0d-9249-e9e0a49068b9',
+		tags: ['React', 'Typescript', 'TailwindCSS', 'Redux', 'firebase'],
+		content: '구글 로그인을 연동하여 다른 사용자들과 소통할 수 있는 웹 어플리케이션입니다.',
+		link: { github: 'https://github.com/Cattamoo/anything', page: 'https://anything-cattamoo.vercel.app' }
+	},
+	{
+		title: 'MEMO',
+		date: { start: '2023-04-20', end: '2023-05-23'},
+		img: 'https://github.com/Cattamoo/memo/assets/87294942/ca2db2ba-ff3d-4cff-ba52-d6e666c323e4',
+		tags: ['React', 'Typescript', 'TailwindCSS', 'Redux'],
+		content: '개인 메모 웹 어플리케이션입니다.',
+		link: { github: 'https://github.com/Cattamoo/memo', page: 'https://memo-cattamoo.vercel.app' }
+	},
+	{
+		title: 'Weather',
+		date: { start: '2023-05-18', end: '2023-05-21'},
+		img: 'https://github.com/Cattamoo/weather/assets/87294942/3e55cd5f-a7e0-45cf-b119-1c1cf1a212c3',
+		tags: ['Vue', 'Typescript', 'TailwindCSS'],
+		content: '날씨 API를 사용한 날씨정보 웹 어플리케이션 입니다.',
+		link: { github: 'https://github.com/Cattamoo/weather', page: 'https://weather-cattamoo.vercel.app' }
+	},
+	{
 		title: 'YouTube',
 		date: { start: '2022-11', end: '2023-04'},
 		img: 'https://user-images.githubusercontent.com/87294942/230587851-f0c574aa-16e9-400a-baa0-de7fcc030095.png',
