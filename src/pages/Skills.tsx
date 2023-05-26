@@ -8,7 +8,7 @@ import {
 	SiJavascript, SiNextdotjs, SiNodedotjs,
 	SiOracle,
 	SiPostgresql,
-	SiReact,
+	SiReact, SiRedux,
 	SiTailwindcss,
 	SiTypescript
 } from "react-icons/si";
@@ -18,10 +18,11 @@ const skills: { [key: string]: SkillType[] } = {
 		{ Icon: SiHtml5, name: 'HTML', level: 63, color: '#ec6231' },
 		{ Icon: SiCss3, name: 'CSS', level: 57.2, color: '#264de4' },
 		{ Icon: SiJavascript, name: 'Javascript', level: 73, color: '#f0db4f' },
-		{ Icon: SiTypescript, name: 'Typescript', level: 32, color: '#007acc' },
-		{ Icon: SiReact, name: 'React', level: 53, color: '#61dbfb' },
-		{ Icon: SiNextdotjs, name: 'Next.js', level: 22, color: '#000000' },
+		{ Icon: SiTypescript, name: 'Typescript', level: 47, color: '#007acc' },
+		{ Icon: SiReact, name: 'React', level: 63, color: '#61dbfb' },
+		{ Icon: SiRedux, name: 'Redux', level: 43, color: '#764abc' },
 		{ Icon: SiTailwindcss, name: 'TailwindCSS', level: 53, color: '#38bdf8' },
+		{ Icon: SiNextdotjs, name: 'Next.js', level: 22, color: '#000000' },
 	],
 	'Back-end': [
 		{ Icon: SiOracle, name: 'Oracle', level: 23, color: '#f80000' },
@@ -30,7 +31,7 @@ const skills: { [key: string]: SkillType[] } = {
 		{ Icon: SiGraphql, name: 'GraphQL', level: 21, color: '#e535ab' },
 	],
 	'etc': [
-		{ Icon: SiGit, name: 'Git', level: 53, color: '#f1502f' },
+		{ Icon: SiGit, name: 'Git', level: 59, color: '#f1502f' },
 	]
 }
 
