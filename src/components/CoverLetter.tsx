@@ -12,7 +12,6 @@ const list = [
 ]
 
 export default function CoverLetter() {
-	// "grid grid-cols-3 gap-4 px-4 text-center justify-center sm:grid-cols-5"
 	return (
 		<div className="flex flex-col gap-10 py-10 px-2">
 			<Title className="text-center text-black">자기소개</Title>
