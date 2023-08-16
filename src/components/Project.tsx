@@ -4,6 +4,7 @@ import {MdCode, MdOutlineOpenInNew} from "react-icons/md";
 import {RiCalendarTodoFill} from "react-icons/ri";
 
 export type ProjectType = {
+	logo?: string;
 	img?: string;
 	title: string;
 	date: { start: string; end?: string; };
@@ -12,9 +13,13 @@ export type ProjectType = {
 	link?: { github?: string, page?: string, gist?: string };
 }
 
-export default function Project({ img = '', title, date, content = '', tags = [], link = {} }: ProjectType) {
+type Props = ProjectType & {
+	onClick: () => void
+};
+
+export default function Project({ img = '', title, date, content = '', tags = [], link = {}, onClick }: Props) {
 	return (
-		<li className="relative min-h-full bg-amber-50 p-4 shadow-lg flex flex-col items-center gap-1">
+		<li className="relative min-h-full bg-amber-50 p-4 shadow-lg flex flex-col items-center gap-1" onClick={onClick}>
 			<div className="absolute -left-3 top-3 text-sm flex gap-0.5 items-center py-2 px-6 font-semibold text-zinc-600/75 bg-amber-200 shadow">
 				<RiCalendarTodoFill className="mr-2 text-amber-600" /><span>{date.start}</span>~{date.end && <span>{date.end}</span>}
 			</div>
