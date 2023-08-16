@@ -10,7 +10,7 @@ import { projects } from "../data/projects";
 export default function Projects() {
 	return (
 		<PageLayout>
-			<Title className="absolute top-11 -left-8 rotate-90 text-zinc-300"><span className="text-yellow-300">P</span>rojects</Title>
+			<Title className="text-amber-300">Projects</Title>
 			<Swiper
 				className="w-80"
 				effect={"cards"}

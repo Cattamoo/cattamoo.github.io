@@ -7,7 +7,7 @@ import { skills } from "../data/skills";
 export default function Skills() {
 	return (
 		<PageLayout>
-			<Title className="absolute top-6 -left-4 rotate-90 text-zinc-300"><span className="text-orange-300">S</span>kills</Title>
+			<Title className="text-orange-300">Skills</Title>
 			<div className="grid gap-2 md:grid-cols-3">
 				{
 					Object.keys(skills).map((name: string) => {
