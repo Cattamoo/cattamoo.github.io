@@ -12,6 +12,10 @@ body {
   color: #666;
 }
 
+* {
+  user-select: none;
+}
+
 #root>.swiper>.swiper-pagination {
   opacity: 0;
 }
