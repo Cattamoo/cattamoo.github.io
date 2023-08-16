@@ -1,5 +1,5 @@
 import React from 'react';
-import {ProjectType} from "./Project";
+import { ProjectType } from "../data/projects";
 
 type Props = {
 	project: ProjectType | null;
@@ -12,7 +12,7 @@ export default function ProjectDetail({ project, onClick }: Props) {
 	}
 	const { title, logo, link } = project;
 	return (
-		<div className="absolute z-[5000] bg-white/90 w-full h-full sm:w-2/3 sm:h-2/3 sm:rounded-lg border-[1px] border-zinc-50">
+		<div className="absolute z-[5000] bg-white w-full h-full sm:w-2/3 sm:h-2/3 sm:rounded-lg border-[1px] border-zinc-50">
 			<header className="bg-amber-50 p-2 flex justify-between border-b-2 border-amber-500">
 				<div className="flex items-center gap-2">
 					{
