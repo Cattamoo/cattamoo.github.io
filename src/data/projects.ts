@@ -1,5 +1,12 @@
-import {ProjectType} from "../components/Project";
-
+export type ProjectType = {
+	logo?: string;
+	img?: string;
+	title: string;
+	date: { start: string; end?: string; };
+	content?: string;
+	tags?: string[];
+	link?: { github?: string, page?: string, gist?: string };
+}
 export const projects: ProjectType[] = [
 	{
 		title: 'ANYTHING',
