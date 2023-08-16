@@ -6,7 +6,7 @@ type Props = SkillDescriptionType;
 export default function SkillDescription({ scores, description }: Props) {
 	return (
 		<li className="flex gap-1">
-			<span className="text-center bg-orange-400 text-white text-xs self-center px-2 rounded-lg">
+			<span className="text-center bg-brandDark text-white text-xs self-center px-2 rounded-lg">
 				{
 					scores.min || <span className="text-transparent">00</span>
 				}

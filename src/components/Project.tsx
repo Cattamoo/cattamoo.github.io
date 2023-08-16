@@ -17,9 +17,9 @@ export default function Project({ project, onClick }: Props) {
 		}
 	}
 	return (
-		<li className="relative min-h-full bg-amber-50 p-4 shadow-lg flex flex-col items-center gap-1" onClick={handleOnClick}>
-			<div className="absolute -left-3 top-3 text-sm flex gap-0.5 items-center py-2 px-6 font-semibold text-zinc-600/75 bg-amber-200 shadow">
-				<RiCalendarTodoFill className="mr-2 text-amber-600" /><span>{date.start}</span>~{date.end && <span>{date.end}</span>}
+		<li className="relative min-h-full bg-brand p-4 shadow-lg flex flex-col items-center gap-1" onClick={handleOnClick}>
+			<div className="absolute -left-3 top-3 text-sm flex gap-0.5 items-center py-2 px-6 font-semibold text-zinc-600/75 bg-brandDark shadow">
+				<RiCalendarTodoFill className="mr-2 text-zinc-600" /><span>{date.start}</span>~{date.end && <span>{date.end}</span>}
 			</div>
 			<img className="w-full aspect-square object-center object-cover rounded-lg" src={img} alt={`${title}`} />
 			<div className="w-full relative">
@@ -34,7 +34,7 @@ export default function Project({ project, onClick }: Props) {
 			</div>
 			<ul className="flex flex-wrap justify-center gap-1.5 text-sm">
 				{
-					tags.map((tag, idx) => <li className="bg-amber-100 px-1 pb-0.5 rounded-lg" key={`tag_${title}_${idx}`}>{`#${tag}`}</li>)
+					tags.map((tag, idx) => <li className="bg-brandDark/50 px-1 pb-0.5 rounded-lg" key={`tag_${title}_${idx}`}>{`#${tag}`}</li>)
 				}
 			</ul>
 			<p>{ content }</p>

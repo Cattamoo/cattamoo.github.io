@@ -7,7 +7,7 @@ import {skillDescriptions, skills, SkillType} from "../data/skills";
 export default function Skills() {
 	return (
 		<PageLayout>
-			<Title className="text-orange-300">Skills</Title>
+			<Title className="text-brandDark">Skills</Title>
 			<div className="w-80 mt-1.5 mb-3">
 				<ul>
 					{

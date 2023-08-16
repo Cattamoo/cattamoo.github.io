@@ -21,7 +21,7 @@ export default function Projects() {
 
 	return (
 		<PageLayout>
-			<Title className="text-amber-300">Projects</Title>
+			<Title className="text-brandDark">Projects</Title>
 			<div className="w-80 mt-1.5 mb-3">
 				<p>제가 진행한 사이드 프로젝트입니다.</p>
 				<p>클릭 시 해당 프로젝트를 테스트할 수 있는 팝업이 오픈됩니다.</p>
