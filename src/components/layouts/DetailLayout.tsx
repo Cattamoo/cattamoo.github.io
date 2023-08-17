@@ -8,7 +8,7 @@ type Props = {
 
 export default function DetailLayout({ onClose, title, children }: Props) {
 	return (
-		<div className="absolute z-[5000] bg-white w-full h-full sm:w-2/3 sm:h-2/3 sm:rounded-lg border-[1px] border-zinc-50">
+		<div className="absolute z-[5000] bg-white w-full h-full sm:w-2/3 sm:h-2/3 sm:rounded-lg border-[1px] border-zinc-5 rounded overflow-hidden">
 			<header className="bg-brand p-2 flex justify-between border-b-2 border-brandDark">
 				<div className="flex items-center gap-2">
 					{ title }
