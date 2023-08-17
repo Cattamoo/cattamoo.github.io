@@ -1,5 +1,6 @@
 import {IconType} from "react-icons";
 import {
+	SiAdobephotoshop,
 	SiCss3, SiGit, SiGraphql,
 	SiHtml5,
 	SiJavascript, SiNextdotjs, SiNodedotjs,
@@ -36,9 +37,9 @@ export const skills: { [key: string]: SkillType[] } = {
 	'Front-end': [
 		{ Icon: SiHtml5, name: 'HTML', level: 63, color: '#ec6231' },
 		{ Icon: SiCss3, name: 'CSS', level: 59, color: '#264de4' },
-		{ Icon: SiJavascript, name: 'Javascript', level: 73, color: '#f0db4f' },
+		{ Icon: SiJavascript, name: 'Javascript', level: 83, color: '#f0db4f' },
 		{ Icon: SiTypescript, name: 'Typescript', level: 55, color: '#007acc' },
-		{ Icon: SiReact, name: 'React', level: 73, color: '#61dbfb' },
+		{ Icon: SiReact, name: 'React', level: 83, color: '#61dbfb' },
 		{ Icon: SiRedux, name: 'Redux', level: 33, color: '#764abc' },
 		{ Icon: SiTailwindcss, name: 'TailwindCSS', level: 63, color: '#38bdf8' },
 		{ Icon: SiNextdotjs, name: 'Next.js', level: 22, color: '#000000' },
@@ -51,6 +52,7 @@ export const skills: { [key: string]: SkillType[] } = {
 	],
 	'etc': [
 		{ Icon: SiGit, name: 'Git', level: 59, color: '#f1502f' },
+		{ Icon: SiAdobephotoshop, name: 'Photoshop', level: 61, color: '#31A8FF' },
 	]
 };
 
