@@ -15,7 +15,7 @@ export default function Skills() {
 					}
 				</ul>
 			</div>
-			<ul className="w-80 grid grid-cols-4 gap-2 p-2 md:grid-cols-5 lg:grid-cols-6">
+			<ul className="w-80 grid grid-cols-4 gap-2 p-2 lg:grid-cols-5">
 			{
 				Object.values(skills).flat().sort((a, b) => b.level - a.level).map((skill: SkillType) => <Skill key={skill.name} {...skill} />)
 			}
