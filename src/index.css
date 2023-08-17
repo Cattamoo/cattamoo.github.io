@@ -17,23 +17,17 @@ body {
 }
 
 #root>.swiper>.swiper-pagination {
-  opacity: 0;
-}
-#root>.swiper>.swiper-pagination:hover {
-  opacity: 1;
+  @apply opacity-0 hover:opacity-100 md:opacity-100;
 }
 
 .swiper-pagination-bullet {
   position: relative;
   text-align: right;
   width: 120px !important;
-  height: 20px !important;
-  line-height: 20px;
-  font-size: 12px;
+  height: 2rem !important;
+  font-size: 1.5rem;
   color: #000;
   background: #00000000 !important;
-  mix-blend-mode: difference;
-  border-radius: 0 !important;
 }
 
 .swiper-pagination-bullet:hover {
