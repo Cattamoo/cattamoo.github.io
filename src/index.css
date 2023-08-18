@@ -17,7 +17,7 @@ body {
 }
 
 #root>.swiper>.swiper-pagination {
-  @apply opacity-0 hover:opacity-100 md:opacity-100;
+  @apply hidden opacity-0 hover:opacity-100 md:block md:opacity-100;
 }
 
 .swiper-pagination-bullet {
