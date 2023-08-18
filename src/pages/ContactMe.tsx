@@ -1,16 +1,25 @@
 import PageLayout from "../components/layouts/PageLayout";
 import Title from "../components/commons/Title";
-import {BsGithub} from "react-icons/bs";
-import {MdMail} from "react-icons/md";
+import {contacts} from "../data/contact";
 
 export default function ContactMe() {
 	return (
 		<PageLayout>
 			<Title className="text-brandDark">ContactMe</Title>
-			<div className="grid grid-cols-[auto_1fr] items-center gap-x-2 gap-y-1 mt-5">
-				<MdMail className="text-lg" /> 	<p>ouob77@kakao.com</p>
-				<BsGithub className="text-lg" /> <a rel="noreferrer" target="_blank" href="https://github.com/cattamoo">https://github.com/cattamoo</a>
-			</div>
+			<ul className="w-80 mt-5">
+				{
+					contacts.map(({ Icon, type, content, isLink }) => (
+						<li key={type} className="flex gap-2 items-center">
+							<Icon className="text-lg" />
+							{
+								isLink
+									? <a href={content} target="_blank" rel="noreferrer">{ content }</a>
+									: <p>{ content }</p>
+							}
+						</li>
+					))
+				}
+			</ul>
 		</PageLayout>
 	);
 }
